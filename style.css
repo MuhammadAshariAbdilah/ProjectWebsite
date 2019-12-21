@@ -1,0 +1,463 @@
+/*
+Theme Name: Ashari Abdillah
+Theme URL: https://wordpress.org/theme/ashariabdillah/
+Author: Ashari Abdillah
+Author URL: https://wordpress.org/
+Description: For me to make a theme like this is a happiness in me I hope this theme can be useful also for others, and this theme is recommended for businesses who want to make business
+Version: 1.0
+License: GNU General Public License v2 or later
+License URL: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ashariabdillah
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready This theme. like WordPress, is licensed under the GPL.
+Use it to make something cool. have fun, and share what you've learned with others.*/
+
+
+/*CREATOR BY ABDILLAH*/
+
+html {font-size:130%;
+      font-family:"Calibri Light";
+	  background-color:#FFF;}
+	  
+body {padding:0;
+      margin:0;}
+	  
+/*SHARE*/
+
+.example_parent_element {clear:left;
+                         width:100%;}
+						 
+.a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style {margin-left:5px;
+                                                                top:92;}
+						
+/*-*/
+	  
+/*HEADER*/
+
+#header {
+    max-width:100%;
+	height:50px;
+	top:0;
+	z-index:1000;
+	text-align:center;
+    position:relative;
+	background-color:linear-gradient(#FFF, #1E90FF);
+}
+/*-*/
+
+/*PENJELASAN 1*/
+#kanan1 {width:50%;
+         height:auto;
+		 margin:30px 15px 0 0;
+		 background-color:transparent;
+		 font-size:98%;
+		 float:right;}
+		 
+#kanan2 {width:50%;
+         height:auto;
+		 margin:30px 15px 0 0;
+		 background-color:transparent;
+		 font-size:98%;
+		 float:right;}
+		 
+#kiri1 {width:40%;
+        height:auto;
+		margin:80px 0 0 15px;
+		background-color:transparent;
+		font-size:98%;
+		float:left;}
+		
+#kiri2 {width:40%;
+        height:auto;
+		margin:80px 0 0 15px;
+		background-color:transparent;
+		font-size:98%;
+		float:left;}
+
+/*-*/
+
+/*Text_Up*/
+
+.content {background-attachment:fixed;
+          background-repeat:no-repeat;
+		  background-size:49% auto;}
+		  
+.content1 {background-repeat:no-repeat;
+		  background-size:49% auto;}
+
+.layarkecil {display:none;}
+	   
+.fjm1 {background-color:transparent;
+       background-image:url('Gambar/Logo.jpg');}
+	   
+.fjm2 {background-color:transparent;
+       background-image:url('Gambar/rp.png');}
+	   
+.fjm3 {background-color:transparent;
+       background-image:url('Gambar/FJM1.jpg');}
+
+.right {background-position:0 50%;
+        line-height:30px;
+        padding:10px 15px 10px 50%;}
+		
+.left {background-position:100% 50%;
+        line-height:30px;
+        padding:10px 50% 10px 15px;}
+		
+.tengah {margin:0 auto;
+         width:50%;
+		 box-shadow:0 0 5px #000;
+		 padding:0 15px 0 15px;
+		 text-align:center;}
+		 
+.batas {height:auto;
+        max-width:100%;}
+		
+#down {width:100%;
+       height:auto;
+	   text-align:center;
+	   color:#FFF;
+	   background-color:#000;
+	   clear:both;}
+
+/*-*/
+
+/*CURSOR*/
+#outerCircleText {
+font-style: italic;
+font-weight: bold;
+font-family:"Stylus BT";
+color:#FFA500;
+
+position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;}
+#outerCircleText div {position: relative;}
+#outerCircleText div div {position: absolute;top: 0;left: 0;text-align: center;}
+/*-*/
+
+/*NAVIGASI*/
+
+ul.topnav {list-style-type:none;
+           margin:0;
+		   padding:0;
+		   overflow:hidden;
+		   background:linear-gradient(#000, #1E90FF);}
+		   
+ul.topnav li {float:left;}
+		   
+ul.topnav li a {display:inline-block;
+                color:#FFF;
+				text-align:center;
+				padding:14px 16px;
+				text-decoration:none;
+				transition:1s;
+				font-size:99%;}
+				
+ul.topnav li a:hover {background-color:#1E90FF;}
+
+ul.topnav li.icon {display:none;}
+
+@media screen and max(max-width:680px) {
+
+ul.topnav li:not(:first-child) {display:none;}
+ul.topnav li.icon {
+	float:right;
+	display:inline-block;
+}
+}
+
+@media screen and (max-width:680px) {
+
+ul.topnav.responsive {position:relative;}
+ul.topnav.responsive li.icon {
+	position:absolute;
+	right:0;
+	top:0;
+}
+ul.topnav.responsive li {
+	float:none;
+	display:inline;
+}
+ul.topnav.responsive li a {
+	display:block;
+	text-align:left;
+}
+}
+
+
+/*-*/
+
+/*H1-H6*/
+
+h2 {font-family:Cambria;}
+
+h4 {color:#FFF;
+    letter-spacing:1px;
+	text-align:center;
+	font-size:120%;
+	padding:10px 0 10px 0;}
+	
+#wadah {margin:0 auto;
+        padding:5px;}
+	
+/*-*/
+
+/*GAMBAR*/
+
+img {max-width:100%;
+     height:400px;}
+	 
+img.respon {max-width:100%;
+            height:auto;
+			display:block;}
+
+img.forUp {max-width:100%;
+     height:150px;
+     display:block;}
+
+	 
+img.Logo {max-width:100%;
+          height:90px;
+	      margin:0 auto;}
+	 
+img.Gambar {
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+
+img.slider {width:auto;
+            height:500px;}
+	 
+
+/*-*/
+
+/*SLIDE*/
+
+#slide {border-radius:5px;margin:0;padding:30px 0 10px 0;
+       -moz-border-radius: 5px; margin: 0px; padding: 30px 0 10px 0;
+	   -webkit-border-radius: 5px; margin: 0px; padding: 30px 0 10px 0;
+	   -o-border-radius:5px; margin:0; padding:10px 0 10px 0;
+	   position::absolute;
+	   top:0;
+	   left:0;
+	   right:0;
+	   bottom:0;
+	   margin:0 auto;}
+
+#slider {
+    width: auto; /* important to be same as image width */
+    height: 400px; /* important to be same as image height *//* important */
+	overflow: hidden; /* important */
+}
+#sliderContent {
+    width: auto; /* important to be same as image width or wider */
+    height:auto;
+	right: 0;
+	margin: 0;
+}
+.sliderImage {
+    position: relative;
+	margin:0 auto;
+	display: none;
+}
+.sliderImage span {
+    position: absolute;
+	font: 10px/15px Arial, Helvetica, sans-serif;
+    padding:5px 0 5px 0;
+    width: 100%;
+	background-color:#000;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+    opacity: 0.5;
+    color: #fff;
+    display: none;
+}
+.clear {
+	clear: both;
+}
+.sliderImage span strong {
+    font-size: 14px;
+}
+.top {
+	top: 0;
+	left: 0;
+}
+.bottom {
+	bottom: 0;
+    left: 0;
+}
+ul { list-style-type: none;}
+/*-*/
+
+/*ATTRIBUT*/
+ul {display:block;}
+
+li.blue {color:#1E90FF;
+         margin:6px 0 6px 0;}
+/*-*/
+
+/*CAPTION*/
+	   
+th {padding:20px 40px 20px 40px;
+    margin:0;
+	background-color:#FF0;}
+
+td.harga {padding:10px 20px 10px 20px;
+    margin:0;
+	background-color:#00FF00;}
+
+caption {margin:20px 0 20px 0;
+         font-family:Cambria;}
+
+/*-*/
+
+/*RESPONSIVE*/
+@media screen and (max-width:1080px) {
+
+html {font-size:100%;}
+
+#null {height:88px;}
+
+#header {height:87px;}
+
+img {height:300px;}
+
+#slider {height:300px;}
+
+h4 {padding:10px 0 10px 0;}
+	
+#wadah {padding:5px;}
+
+img {height:120px;}
+
+img.slider {height:500%;
+            width:450%;}
+
+img.Gambar {height:400px;}
+
+img.forUp {height:130px;}
+
+img.Logo {height:87px;}
+
+#kanan1 {margin:25px 13px 0 0;}
+
+#kanan2 {margin:25px 13px 0 0;}
+
+#kiri1 {margin:60px 0 0 13px;}
+
+#kiri2 {margin:60px 0 0 13px;}
+
+.content {background-size:44% auto;}
+
+.content1 {background-size:44% auto;}
+
+.right {background-position:0 55%;
+        padding:10px 15px 10px 45%;}
+		
+.left {background-position:100% 55%;
+        padding:10px 45% 10px 15px;}
+		
+.layarkecil {display:none;}
+
+th {padding:18px 38px 18px 38px;}
+
+td.harga {padding:8px 18px 8px 18px;}
+}
+
+@media screen and (max-width:780px) {
+
+html {font-size:93%;}
+
+#null {height:86px;}
+
+#header {height:85px;}
+
+img {height:290px;}
+
+#slider {height:290px;}
+
+h4 {padding:10px 0 10px 0;}
+	
+#wadah {padding:5px;}
+
+img {height:250px;}
+
+img.forUp {height:100px;}
+
+img.Gambar {height:350px;}
+
+img.Logo {height:85px;}
+
+img.slider {width:500%;
+            height:450px;}
+
+#kanan1 {margin:15px 12px 0 0;}
+
+#kanan2 {margin:15px 12px 0 0;}
+
+#kiri1 {margin:15px 0 0 12px;}
+
+#kiri2 {margin:15px 0 0 12px;}
+
+.layarkecil {display:block;}
+
+.right {background-image:none;
+        padding:15px 15px;}
+		
+.left {background-image:none;
+        padding:15px 15px;}
+		
+th {padding:16px 36px 16px 36px;}
+
+td.harga {padding:7px 17px 7px 17px;}
+
+}
+
+@media screen and (max-width:500px) {
+
+html {font-size:90%;}
+
+img {height:220px;}
+
+#slider {height:220px;}
+
+#null {height:84px;}
+
+#header {height:83px;}
+
+h4 {padding:10px 0 10px 0;}
+	
+#wadah {padding:5px;}
+
+img {height:100px;}
+
+img.forUp {height:80px;}
+
+img.Gambar {height:310px;}
+
+img.Logo {height:83px;}
+
+img.slider {width:400%;
+            height:400px;}
+
+#kanan1 {margin:10px 11px 0 0;}
+
+#kanan2 {margin:10px 11px 0 0;}
+
+#kiri1 {margin:10px 0 0 11px;}
+
+#kiri2 {margin:10px 0 0 11px;}
+
+.right {background-image:none;
+        padding:10px 10px;}
+		
+.left  {background-image:none;
+        padding:10px 10px;}
+
+.layarkecil {display:block;}
+
+th {padding:15px 34px 15px 34px;}
+
+td.harga {padding:7px 16px 7px 16px;}
+}
+/*-*/
